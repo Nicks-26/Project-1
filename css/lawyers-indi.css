@@ -1,3 +1,14 @@
 section {
   margin: 20px;
 }
+
+section .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section div div {
+  align-items: center;
+}

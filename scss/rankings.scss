@@ -5,12 +5,17 @@
     text-align: center;
 }
 
+
 .card .card-body a {
     color: black;
     text-decoration: none;
-}
-
-.card-body {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+section div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
