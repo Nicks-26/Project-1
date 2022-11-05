@@ -1,0 +1,79 @@
+.navbar-nav  li a {
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+}
+
+#contact {
+    background-color: lightgray;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer .navi .navi-bars .navi-links li {
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+footer .navi .navi-bars .navi-links li a {
+    color: white;
+    padding: 5px;
+    
+}
+
+footer .navi .navi-bars .navi-links li a:link {
+    text-decoration: none;
+} 
+
+.navi {
+    padding: 5px;
+}
+
+
+.navi-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  
+
+.offices div {
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+@media only screen and (min-width: 767px)
+{
+    .offices {
+       text-align: center;
+       
+    }
+}
+
+@media only screen and (min-width: 1023px)
+{
+    .offices {
+        display: flex;
+        justify-content: center;
+
+    }
+}
