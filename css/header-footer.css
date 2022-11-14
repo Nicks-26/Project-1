@@ -58,11 +58,14 @@ footer .navi .navi-bars .navi-links li a:link {
   text-align: center;
 }
 
+
 @media only screen and (min-width: 767px) {
   .offices {
     text-align: center;
   }
 }
+
+
 @media only screen and (min-width: 1023px) {
   .offices {
     display: flex;
